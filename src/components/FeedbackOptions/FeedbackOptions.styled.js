@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import goodIcon from "../../images/good.png";
-import neutralIcon from '../../images/neutral.png';
-import badIcon from "../../images/bad.png";
+import goodIcon from "../../images/love.png";
+import neutralIcon from '../../images/smile.png';
+import badIcon from "../../images/bored.png";
 
 const btnImage = (props) => {
     switch (props.name) {
@@ -34,7 +34,7 @@ const Button = styled.button`
     line-height: 16px;
     border: none;
     background-color: transparent;
-    background: no-repeat top 6px right 50% url(${btnImage});
+    background: no-repeat top 6px right 50% / 40px url(${btnImage});
 
     color: #7F8E9D;
     cursor: pointer;
